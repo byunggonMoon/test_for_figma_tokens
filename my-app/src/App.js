@@ -1,26 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import output from "./output.json"
+import tokens from "./tokens.json"
+import {Button, ConfigProvider} from "antd";
+import ContainerContent from "./ContainerContent";
 function App() {
 
 console.log(output)
+console.log(tokens.token)
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <ConfigProvider theme={{token:tokens.token}}>
+           <ContainerContent />
+        </ConfigProvider>
     </div>
   );
 }
