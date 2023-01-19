@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import output from "./output.json"
 function App() {
+
+console.log(output)
+
   return (
     <div className="App">
       <header className="App-header">

@@ -1,0 +1,28 @@
+{
+  "red": {
+    "value": "#FF0000",
+    "type": "color"
+  },
+  "blue": {
+    "value": "#0000ff",
+    "type": "color"
+  },
+  "white": {
+    "value": "#fff",
+    "type": "color"
+  },
+  "gray": {
+    "value": "#b2b2b2",
+    "type": "color"
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "colors",
+      "type": "other"
+    }
+  },
+  "colorPrimary": {
+    "value": "#353638",
+    "type": "other"
+  }
+}
